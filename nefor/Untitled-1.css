@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;400;700&display=swap');
+
+/* Estilos generales */
+body {
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 100px; /* Tamaño grande para el título principal */
+    font-family: 'Anton', sans-serif; /* Asegura el uso de una fuente llamativa */
+    margin-bottom: 20px; /* Espaciado inferior para separar del texto */
+  }
+  
+  h6 {
+    font-size: 18px; /* Tamaño más grande para subtítulos */
+    font-family: 'Montserrat', sans-serif; /* Fuente secundaria */
+    line-height: 1.5; /* Espaciado entre líneas para mejor legibilidad */
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  
+  .card {
+    width: 700px;
+    margin: 10px auto;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 30px;
+  }
+
+  /* Botón de jugar */
+  .button {
+    display: inline-block;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  /* CSS para la pestaña modal */
+  .modal-body {
+    width: 200%; /* Ajusta este valor según se requiera */
+    max-width: 800px; /* Ajuste máximo en píxeles */
+    margin: 10px auto;
+  }
+  
+
+/* Estilos para el botón de cerrar */
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+footer {
+    color: black;
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho de la página */
+    
+}
